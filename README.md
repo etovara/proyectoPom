@@ -17,12 +17,12 @@
 °[Automation_Creador](#Automation-Creador)
 
 
-## Descripción-del-proyecto
+## Descripción del proyecto
 
 
 
 
-## Estado-del-Proyecto
+## Estado del Proyecto
 
 <p align="center">
    <img src="https://img.shields.io/badge/STATUS-DESARROLLADO-green">
@@ -37,13 +37,13 @@
    </p>
 
 
-## Características-de-la-Aplicación-y-Demostración
+## Características de la Aplicación y Demostración
 
 `Funcionalidad 1`: descripción de la funcionalidad 1 <br>
-`Funcionalidad 2`: descripción de la funcionalidad 2
+`Funcionalidad 2`: descripción de la funcionalidad 2 <br>
 `Funcionalidad 3`: descripción de la funcionalidad 3
 
-## Tecnologías-Utilizadas
+## Tecnologías Utilizadas
 <img src="https://user-images.githubusercontent.com/84712063/228961811-0bf9d855-af44-47d7-b713-a01b10bcbf97.png" width="200">
 
 <img src="https://user-images.githubusercontent.com/84712063/228962070-72ba59af-b7fe-413f-b362-9490029546a3.png" width="200">
