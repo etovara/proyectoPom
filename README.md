@@ -6,18 +6,18 @@
 
 <h1 align="left"> INDICE </h1>
 
-°[Descripción del proyecto](#Descripción-del-proyecto)
+°[Descripción del Proyecto](#Descripción-del-proyecto)
 
-°[Estado del proyecto](#Estado del Proyecto)
+°[Estado del Proyecto](#Estado-del-Proyecto)
 
-°[Características de la aplicación y demostración](#Características de la Aplicación y Demostración)
+°[Características de la aplicación y demostración](#Características-de-la-Aplicación-y-Demostración)
 
-°[Tecnologías utilizadas](#Tecnologías Utilizadas)
+°[Tecnologías utilizadas](#Tecnologías-Utilizadas)
 
-°[Automation_creador](#Automation Creador)
+°[Automation_creador](#Automation-Creador)
 
 
-## Descripción del proyecto
+## Descripción-del-proyecto
 
 
 
