@@ -43,7 +43,7 @@
    </p>
 
 
-:hammer: ## Características-de-la-aplicación-y-demostración
+## Características-de-la-aplicación-y-demostración
 
 `Funcionalidad 1`: descripción de la funcionalidad 1
 `Funcionalidad 2`: descripción de la funcionalidad 2
@@ -51,6 +51,5 @@
 
 ## personas-contribuyentes
 
-<img src="https://user-images.githubusercontent.com/84712063/228957614-ae7c9725-e4c0-407d-b5be-1e22b8cb0b73.jpg" width="150")
-
-<br><sub>Edwin Tovar</sub>
+<img src="https://user-images.githubusercontent.com/84712063/228957614-ae7c9725-e4c0-407d-b5be-1e22b8cb0b73.jpg" width="150">
+<sub>Edwin Tovar</sub>
