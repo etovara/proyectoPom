@@ -6,7 +6,7 @@
 
 <h1 align="left"> INDICE </h1>
 
-°[Descripción del proyecto](#Descripción del proyecto)
+°[Descripción del proyecto](#Descripción-del-proyecto)
 
 °[Estado del proyecto](#Estado del Proyecto)
 
