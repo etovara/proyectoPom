@@ -1,0 +1,4 @@
+Se puede ejecutar las automatizaciones a traves de linea de comando
+posicionandose en el CMD dentro de la ubicación del test a ejecutar y con el comando
+
+python (nombre del programa automatizado)

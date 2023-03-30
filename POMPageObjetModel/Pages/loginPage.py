@@ -1,3 +1,4 @@
+from proyectoPom.POMPageObjetModel.Locators.locators import locators
 from selenium.webdriver.common.by import By
 # Se debe crear una clase
 class loginPage():
@@ -7,29 +8,29 @@ class loginPage():
       self.driver = driver
     
     # Se debe agregar los objectos existente en la pagina
-      self.register_button_id       = 'signin2'
-      self.username_textbox_id      = "sign-username"
-      self.password_textbox_id      = "sign-password"
-      self.click_cancelar_xpath           = '//*[@id="signInModal"]/div/div/div[3]/button[1]'
+      self.register_button_id       = locators.register_button_id
+      self.username_textbox_id      = locators.username_textbox_id
+      self.password_textbox_id      = locators.password_textbox_id
+      self.click_cancelar_xpath           = locators.click_cancelar_xpath
       
       
     # Se debe crear una función o metodo de acción 
     def click_singUp(self):
-      self.driver.find_element(By.ID, self.register_button_id).click()
+      self.driver.find_element(By.ID, self.locators.register_button_id).click()
       
     
     def enter_username(self, username):
-      self.driver.find_element(By.ID, self.username_textbox_id).clear()
-      self.driver.find_element(By.ID, self.username_textbox_id).send_keys(username)
+      self.driver.find_element(By.ID, self.locators.username_textbox_id).clear()
+      self.driver.find_element(By.ID, self.locators.username_textbox_id).send_keys(username)
       
 
     def enter_password(self, password):
-      self.driver.find_element(By.ID, self.password_textbox_id).clear()
-      self.driver.find_element(By.ID, self.password_textbox_id).send_keys(password)
+      self.driver.find_element(By.ID, self.locators.password_textbox_id).clear()
+      self.driver.find_element(By.ID, self.locators.password_textbox_id).send_keys(password)
             
       
     def click_cancelar(self):
-      self.driver.find_element(By.XPATH, self.click_cancelar_xpath).click()
+      self.driver.find_element(By.XPATH, self.locators.click_cancelar_xpath).click()
      
 
 
