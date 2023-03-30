@@ -6,6 +6,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 from proyectoPom.POMPageObjetModel.Pages.loginPage import loginPage
 import time
 import unittest #Importar el modulo de pruebas de Python
+import HtmlTestRunner #Importa la libreria html test runner para generar un reporte (VER el final del codigo que se debe configurar la condición IF name)
 
 
 # Se debe declarar la clase de la prueba Registro (Caso de Prueba. Clase de Prueba)
@@ -72,4 +73,8 @@ class RegistroTest(unittest.TestCase):
     print("Test Completado")
 
 if __name__ == '__main__':
-    unittest.main()
+    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output=r"C:\Users\Edwin Tovar\Desktop\proyectoPom\reportes"))
+
+
+#Configurando el unittest.main
+#testRunner=HtmlTestRunner.HTMLTestRunner(output="Carpeta donde se va a generar el reporte")

@@ -2,3 +2,11 @@ Se puede ejecutar las automatizaciones a traves de linea de comando
 posicionandose en el CMD dentro de la ubicación del test a ejecutar y con el comando
 
 python (nombre del programa automatizado)
+
+Para generar un reporte de Html debemos realizar los siguientes pasos:
+
+° Tener instalado la biblioteca de Html
+° Para instalar la biblioteca de Html debemos ejecutar el siguientes codigo
+    pip install html-testRunner
+° Se debe importar la libreria HtmltestRunner en las paginas del test en donde se quiera generar el reporte.
+° Debemos tener una carpeta a la altura del proyecto en donde se puedan guardar los reportes generados
