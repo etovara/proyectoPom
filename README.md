@@ -43,7 +43,7 @@
    </p>
 
 
-## :hammer: Características-de-la-aplicación-y-demostración
+:hammer: ## Características-de-la-aplicación-y-demostración
 
 `Funcionalidad 1`: descripción de la funcionalidad 1
 `Funcionalidad 2`: descripción de la funcionalidad 2
