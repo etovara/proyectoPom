@@ -3,11 +3,10 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
-from proyectoPom.POMPageObjetModel.Pages.loginPage import loginPage
+from paginas.loginPage import loginPage
 import time
 import unittest #Importar el modulo de pruebas de Python
 import HtmlTestRunner #Importa la libreria html test runner para generar un reporte (VER el final del codigo que se debe configurar la condición IF name)
-
 
 # Se debe declarar la clase de la prueba Registro (Caso de Prueba. Clase de Prueba)
 class RegistroTest(unittest.TestCase):
@@ -35,7 +34,7 @@ class RegistroTest(unittest.TestCase):
     time.sleep(2)
     login.enter_username("EDTOVAR")
     time.sleep(2)
-    login.enter_password("12345")
+    login.enter_password(12345)
     time.sleep(2)
     login.click_cancelar()
     

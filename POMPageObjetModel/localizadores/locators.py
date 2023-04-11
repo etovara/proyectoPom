@@ -2,7 +2,7 @@ from selenium.webdriver.common.by import By
 
 # Se debe crear una clase
 
-class Locators():
+class locators():
 # Se debe copiar los localizadores de los Pages de manera separada.
 # Se debe eliminar el self debido a que son variables de la nueva clase creada en los localizadores
 # Una vez creada los localizadores, se deben importar desde los Pages
